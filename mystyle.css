@@ -14,26 +14,28 @@ body{
   margin-bottom: : -5px;
   width: 600px;
   border-radius: 25px;
-  height: 150px;
+  height: 250px;
   background-color: hsl(50%, 40%, 30%);
 }
 ul{
   list-style-type: none;
-  padding: 5px;
+  padding: 0px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  margin-bottom: 15px;
 }
 a{
   text-decoration-color: none;
   background: lightblue;
-  width: 75px;
-  height: 25px;
+  padding: 2px;
+  width: 300px;
+  height: 125px;
 }
 a:hover{
   background: yellow;
+  display: block;
 }
 h1{
-  transform: rotate(2deg);
   color: blue;
-  text-shadow: 2px 2px;
+  text-shadow: 1px 1px;
 }
